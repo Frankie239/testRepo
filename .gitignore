@@ -1,0 +1,58 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.pdb
+*.obj
+*.suo
+*.user
+
+# Build artifacts
+bin/
+obj/
+publish/
+dist/
+build/
+.tmp/
+
+# NuGet packages
+packages/
+*.nupkg
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+*~
+
+# IDE-specific files
+*.csproj.user
+*.sln.user
+.vscode/
+.idea/
+
+# Blazor specific
+wwwroot/css/app.css.map
+wwwroot/js/app.js.map
+wwwroot/lib/
+wwwroot/css/bootstrap/bootstrap.min.css.map
+
+# Test results
+TestResults/
+
+# User secrets
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
+appsettings.json.user
+secrets.json
+
+# Rider
+.idea/
+*.iml
+
+# Other common exclusions
+Thumbs.db
+Desktop.ini
+.DS_Store
